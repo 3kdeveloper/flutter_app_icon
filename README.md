@@ -12,7 +12,7 @@ Create a 512x512 px design and place app icon with the padding of 140 px from ea
 Goto android -> app (Right click) -> Flutter (Open android module in Android Studio (open in new window)) -> Goto app (Right click) -> File -> click on image asset.
 
 ## 👍 Generate Launcher Icon 
-flutter pub run flutter_launcher_icons -f flutter_launcher_icons.yaml
+dart run flutter_launcher_icons -f flutter_launcher_icons.yaml
 
 ## 👍 Flutter Splash Screen Icon 
 Create a 512x512 px design and place app icon with Zero(0) padding from each side.
@@ -21,7 +21,7 @@ Create a 512x512 px design and place app icon with Zero(0) padding from each sid
 Create a 960x960 px design and place app icon with the padding of 160 px from each side.
 
 ## 👍 Generate Splash Screen 
-flutter pub run flutter_native_splash:create --path=flutter_native_splash.yaml
+dart run flutter_native_splash:create --path=flutter_native_splash.yaml
 
 
 ## License

@@ -1,28 +1,27 @@
 # Flutter_App_Icon (Launcher & Splash)
 
-This project is just made for testing flutter app icon (different resolution) 
+This project is just made for testing Flutter app icon (different resolution) 
 using flutter_launcher_icons package & Splash Screen using flutter_native_splash package.
 
 ## 👍 Flutter_Launcher_Icon 
 
 ## 👍 Create Flutter Launcher Icon 
-Create a 512x512 px design and place app icon with the padding of 140 px from each side.
+Create a 512x512 px design and place the app icon with a padding of 140 px from each side.
 
 ## 👍 For Android Adaptive Icon  
-Goto android -> app (Right click) -> Flutter (Open android module in Android Studio (open in new window)) -> Goto app (Right click) -> File -> click on image asset.
+Goto android -> app (Right-click) -> Flutter (Open android module in Android Studio (open in new window)) -> Goto app (Right-click) -> File -> click on image asset.
 
 ## 👍 Generate Launcher Icon 
 dart run flutter_launcher_icons -f flutter_launcher_icons.yaml
 
-## 👍 Flutter Splash Screen Icon 
-Create a 512x512 px design and place app icon with Zero(0) padding from each side.
+## 👍 Flutter Splash Screen Icon for lower Android 12 devices & IOS
+Create a 128x128 px design and place the app icon with Zero(0) padding from each side.
 
 ## 👍 Flutter Android 12+ Splash Screen 
 Create a 960x960 px design and place app icon with the padding of 160 px from each side.
 
 ## 👍 Generate Splash Screen 
 dart run flutter_native_splash:create --path=flutter_native_splash.yaml
-
 
 ## License
 
